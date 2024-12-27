@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Color Matching Game</title>
+    <link rel="stylesheet" href="./ColorGuess.css" />
+  </head>
+  <body>
+    <div class="status">
+      <h1>Try Count</h1>
+      <h1 class="tries">2</h1>
+    </div>
+
+    <header>
+      <h3 class="header">Guess the Color</h3>
+    </header>
+
+    <right>
+      <div class="modes">
+        <button class="easy">Easy</button>
+        <button class="divider">|</button>
+        <button class="hard">Hard</button>
+      </div>
+    </right>
+
+    <section class="panel">
+      <button class="start">Start</button>
+      <button class="randomcolor"></button>
+      <button class="feedback">Waiting...</button>
+    </section>
+
+    <section>
+      <div class="first-line">
+        <div class="first-block"></div>
+        <div class="first-block"></div>
+        <div class="first-block"></div>
+      </div>
+      <div class="second-line">
+        <div class="second-block"></div>
+        <div class="second-block"></div>
+        <div class="second-block"></div>
+      </div>
+    </section>
+
+    <script src="./ColorGuess.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </body>
+</html>
